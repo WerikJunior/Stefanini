@@ -1,0 +1,243 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 1799703900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que a modal esteja sendo exibida",
+            "match": {
+              "location": "steps.CadastroSteps.queAModalEstejaSendoExibida()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-07T10:31:17.187Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6265659000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.CadastroSteps.iniciaNavegador(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Realizar cadastro com campos validos",
+        "description": "",
+        "id": "cadastro;realizar-cadastro-com-\u003cidentificacao\u003e;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1198027200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.CadastroSteps.fechaNavegador(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1262079400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "os campos sejam preenchidos da seguinte forma",
+            "match": {
+              "location": "steps.CadastroSteps.osCamposSejamPreenchidosDaSeguinteForma(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "nome",
+                  "joao jose"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "joao@email.com"
+                ]
+              },
+              {
+                "cells": [
+                  "senha",
+                  "Abc1234#"
+                ]
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 415804800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clicar no botao cadastrar",
+            "match": {
+              "location": "steps.CadastroSteps.clicarNoBotaoCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 351637000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "deve cadastrar usuario no sistema",
+            "match": {
+              "location": "steps.CadastroSteps.deveCadastrarUsuarioNoSistema()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loginComSucesso"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 1809128200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que a modal esteja sendo exibida",
+            "match": {
+              "location": "steps.CadastroSteps.queAModalEstejaSendoExibida()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-07T10:31:28.796Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3366123900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.CadastroSteps.iniciaNavegador(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Realizar cadastro com nome invalido",
+        "description": "",
+        "id": "cadastro;realizar-cadastro-com-\u003cidentificacao\u003e;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 711324400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.CadastroSteps.fechaNavegador(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 676938100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "os campos sejam preenchidos da seguinte forma",
+            "match": {
+              "location": "steps.CadastroSteps.osCamposSejamPreenchidosDaSeguinteForma(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "nome",
+                  "joao"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "joao@email.com"
+                ]
+              },
+              {
+                "cells": [
+                  "senha",
+                  "Abc1234#"
+                ]
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 666394400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "clicar no botao cadastrar",
+            "match": {
+              "location": "steps.CadastroSteps.clicarNoBotaoCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 612275900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "o sistema deve exibir mensagem de validacao",
+            "match": {
+              "location": "steps.CadastroSteps.oSistemaDeveExibirMensagemDeValidacao()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loginInvalido"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro",
+    "description": "",
+    "id": "cadastro",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
