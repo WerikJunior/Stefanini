@@ -70,7 +70,10 @@ public class CadastroSteps {
     @Entao("o sistema deve exibir mensagem de validacao")
     public void oSistemaDeveExibirMensagemDeValidacao() throws IOException {
         Assert.assertEquals("Por favor, insira um nome completo.", loginPage.getErroNome());
-
+        /*Assert.assertEquals("Por favor, insira um e-mail válido.", loginPage.getErroEmail());
+        Assert.assertEquals("A senha deve conter ao menos 8 caracteres.", loginPage.getErroSenha());
+        TODO ficou pendente as validações de email e senha
+        */
         Driver.printScreen("nome invalido");
     }
 
