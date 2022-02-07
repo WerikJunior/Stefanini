@@ -72,7 +72,7 @@ public class CadastroSteps {
         Assert.assertEquals("Por favor, insira um nome completo.", loginPage.getErroNome());
         /*Assert.assertEquals("Por favor, insira um e-mail válido.", loginPage.getErroEmail());
         Assert.assertEquals("A senha deve conter ao menos 8 caracteres.", loginPage.getErroSenha());
-        ToDo ficou pendente as validações de email e senha
+        TODO ficou pendente as validações de email e senha
         */
         Driver.printScreen("nome invalido");
     }
