@@ -26,8 +26,10 @@ Funcionalidade: Cadastro
     E clicar no botao cadastrar
     Entao o sistema deve exibir mensagem de validacao
     Exemplos:
-      | identificacao | nome | email          | senha    |
-      | nome invalido | joao | joao@email.com | Abc1234# |
+      | identificacao  | nome      | email          | senha    |
+      | nome invalido  | joao      | joao@email.com | Abc1234# |
+      | email invalido | joao jose | a              | Abc1234# |
+      | senha invalida | joao jose | joao@email.com | 123      |
 
 
 
